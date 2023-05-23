@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+
+        <section id="students">
+            <h1>Tabelas dos gatinhos</h1>
+
+            <!-- tag border cria bordas  -->
+            <table border="2"> 
+                <!-- tag thead denife cabeçalho; tbody corpo da tabela -->
+                <thead>
+                    <!-- tag tr cria uma linha table row -->
+                    <tr>
+
+                     <!-- tag th ou td no thead cria colunas/celulas     -->
+                     <!-- th toronou texto negrito e centralizado  -->
+                     <th>Nome</th>
+                     <th>E-mail</th>
+                     <th>Matricula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Sun </td>
+                        <td>Sun@fofinha.com </td>
+                        <td>09</td>
+                    </tr>
+                    <tr>
+                        <td>teco </td>
+                        <td>teco@gordinho.com </td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>minerva </td>
+                        <td>minerva@daerva.com </td>
+                        <td>420</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        
+        <section id="finance">
+            <h2>Tabela de Gastos Com Gatos</h2>
+            <table border="4">
+                <thead>
+                    <tr>
+                        <th>datada</th>
+                        <th>produto</th>
+                        <th>valor</th>
+                    </tr>
+                    <tr>
+                        <!-- atributo rowspan para mesclar linhas -->
+                         <!-- atributo colspan mescla duas colunas -->
+                        <td rowspan="2">15/05/2023</td>
+                        <td colspan="2">racao origins 12kg</td>
+                        <!-- <td>270</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td>015/05/2023</td> apaguei essa linha para mesclar com o rowspan -->
+                       
+                        <td>areia 12 kg pipicat</td>
+                        <td>38</td>
+                    </tr>
+                    <tr>
+                        <td>03/05/2023</td>
+                        <td>pazinha</td>
+                        <td>15</td>
+                    </tr>
+                
+                </thead>
+            </table>
+        </section>
+    </main>
+    
+</body>
+</html>
