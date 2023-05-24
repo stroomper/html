@@ -1,6 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
-    color: blueviolet;
-    
-    font-size: 56px;
-    font-weight: 100;
+    color: tomato;
+    font-size: 96px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    text-align: ;
+}
+ 
+.fundo {
+height: 500px;
+width: 100%;
+background-color: seagreen; 
+background-image: url('https://images.unsplash.com/photo-1570998103225-83a725716e28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
+background-size: initial;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+h2{
+    color: tomato;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: justify;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    /* margem no texto  */
+    text-indent: 90px;
 }
