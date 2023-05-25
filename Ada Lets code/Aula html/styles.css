@@ -1,12 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman';
+    font-size: 1.8rem;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    font-size: 2.4rem;
+    border-collapse: collapse;
+}
+
 h1{
-    color: blue;
-}
-li{
-    color: darkolivegreen;
-}
-h2{
     color: tomato;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4.6rem;
 }
-thead{
-    color: burlywood;
+/* definindo cores das linhas da tabela */
+table tr:nth-child(2n + 1){
+    background-color: aquamarine;
+}
+table tr:first-child{
+    background-color: bisque;
+}
+
+/* estilizando listas  */
+ul, ol{
+    padding-left: 2.4rem;
+    /* list-style: circle; */
+}
+ul{
+    list-style: square;
+}
+ol{
+    list-style: upper-roman;
+}
+.box{
+    height: 10rem;
+    width: 20rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border: 10px solid #555;
+    display: inline-block;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 1.8rem;
+}
+img{
+    height: 10rem;
+    width: 15rem;
+    object-fit: cover;
+    /* display: none; remove o elemento da tela*/
+
 }

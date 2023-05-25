@@ -3,18 +3,25 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    font-size: 62.5%;
+    font-size: 16px;
+}
 
+body {
+    font-family: 'Comic Neue', cursive;
+}
 h1, h2{
     color: tomato;
-    font-size: 96px;
+    font-size: 9.6rem;
     font-weight: 900;
     font-style: normal;
     text-align: center;
-    font-family: 'Comic Neue', cursive;
+    /* font-family: 'Comic Neue', cursive; */
 }
- 
+ /* vh e vw view hight view widht relativo a pagina inteira */
 .fundo {
-height: 500px;
+height: 600px;
 width: 100%;
 background-color: seagreen; 
 background-image: url('https://images.unsplash.com/photo-1570998103225-83a725716e28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
@@ -33,9 +40,30 @@ h2{
 }
 
 p{
-    font-size: 26px;
+    font-size: 1.8rem;
     text-align: justify;
     /* margem no texto  */
     text-indent: 90px;
     font-family: 'Times New Roman', Times, serif;
+    
+}
+h3 {
+    font-size: 3.2em;
+}
+.novo-em{
+    font-size: 85%;
+}
+a:{
+    font-size: 3.4rem;
+    color: brown;
+    
+}
+/* quando o link é visitado o que eu ditar embaixo sera acontecera com o link */
+a:visited{
+    font-size: 3.4rem;
+    color: darkgray;
+}
+/* quando estiver com o mouse sobre */
+a:hover{
+    color: cornflowerblue;
 }
